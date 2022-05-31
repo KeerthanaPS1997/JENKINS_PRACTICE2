@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.vtiger.contacts.tiger.CreateContactTest">
+        <methods>
+          <include name="afterClass1Test"/>
+          <include name="beforesuite1Test"/>
+          <include name="beforeMethod1Test"/>
+          <include name="afterMethod1Test"/>
+          <include name="createContactTest"/>
+          <include name="beforeClass1Test"/>
+          <include name="aftersuite1Test"/>
+        </methods>
+      </class> <!-- com.vtiger.contacts.tiger.CreateContactTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
