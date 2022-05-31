@@ -18,7 +18,7 @@ public class CreateProductTest extends BaseClass
 	CreateNewProductPage createNewProductPage;
 	
 	
-	@Test(groups="sanity")
+	@Test
 	public void createProdcutName() throws EncryptedDocumentException, IOException
 	{
 		productname=ExceSheetlUtility.getDataFromExcel("Organization", 8, 1)+randomNumber;
