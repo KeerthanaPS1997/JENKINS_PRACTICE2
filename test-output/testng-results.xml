@@ -1,114 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-31T09:44:53Z" name="Default suite" finished-at="2022-05-31T09:44:53Z" duration-ms="131">
+  <suite started-at="2022-05-31T10:14:05Z" name="Default suite" finished-at="2022-05-31T10:14:37Z" duration-ms="32509">
     <groups>
-      <group name="sanity">
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.vtiger.contacts.tiger.CreateContactTest@3964d79]" name="createContactTest" class="com.vtiger.contacts.tiger.CreateContactTest"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-05-31T09:44:53Z" name="Default test" finished-at="2022-05-31T09:44:53Z" duration-ms="131">
-      <class name="com.vtiger.contacts.tiger.CreateContactTest">
-        <test-method is-config="true" signature="beforesuite1Test()[pri:0, instance:com.vtiger.contacts.tiger.CreateContactTest@3964d79]" started-at="2022-05-31T09:44:53Z" name="beforesuite1Test" finished-at="2022-05-31T09:44:53Z" duration-ms="96" status="FAIL">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[.\src\test\resources\Commondata.properties (The system cannot find the file specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: .\src\test\resources\Commondata.properties (The system cannot find the file specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
-at com.SDET34L1.genericUtility.PropertyFileUtility.openPropertyFile(PropertyFileUtility.java:23)
-at com.SDET34L1.genericUtility.BaseClass.beforesuite1Test(BaseClass.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+    <test started-at="2022-05-31T10:14:05Z" name="Default test" finished-at="2022-05-31T10:14:37Z" duration-ms="32509">
+      <class name="com.vtiger.product.test.CreateProductTest">
+        <test-method is-config="true" signature="beforesuite1Test()[pri:0, instance:com.vtiger.product.test.CreateProductTest@3ab6678b]" started-at="2022-05-31T10:14:02Z" name="beforesuite1Test" finished-at="2022-05-31T10:14:05Z" duration-ms="2424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite1Test -->
-        <test-method is-config="true" signature="beforeClass1Test()[pri:0, instance:com.vtiger.contacts.tiger.CreateContactTest@3964d79]" started-at="2022-05-31T09:44:53Z" name="beforeClass1Test" finished-at="2022-05-31T09:44:53Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeClass1Test()[pri:0, instance:com.vtiger.product.test.CreateProductTest@3ab6678b]" started-at="2022-05-31T10:14:05Z" name="beforeClass1Test" finished-at="2022-05-31T10:14:12Z" duration-ms="7238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass1Test -->
-        <test-method is-config="true" signature="beforeMethod1Test()[pri:0, instance:com.vtiger.contacts.tiger.CreateContactTest@3964d79]" started-at="2022-05-31T09:44:53Z" name="beforeMethod1Test" finished-at="2022-05-31T09:44:53Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod1Test()[pri:0, instance:com.vtiger.product.test.CreateProductTest@3ab6678b]" started-at="2022-05-31T10:14:12Z" name="beforeMethod1Test" finished-at="2022-05-31T10:14:15Z" duration-ms="3284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod1Test -->
-        <test-method signature="createContactTest()[pri:0, instance:com.vtiger.contacts.tiger.CreateContactTest@3964d79]" started-at="2022-05-31T09:44:53Z" name="createContactTest" finished-at="2022-05-31T09:44:53Z" duration-ms="0" status="SKIP">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[.\src\test\resources\Commondata.properties (The system cannot find the file specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: .\src\test\resources\Commondata.properties (The system cannot find the file specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
-at com.SDET34L1.genericUtility.PropertyFileUtility.openPropertyFile(PropertyFileUtility.java:23)
-at com.SDET34L1.genericUtility.BaseClass.beforesuite1Test(BaseClass.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+        <test-method signature="createProdcutName()[pri:0, instance:com.vtiger.product.test.CreateProductTest@3ab6678b]" started-at="2022-05-31T10:14:15Z" name="createProdcutName" finished-at="2022-05-31T10:14:31Z" duration-ms="15401" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContactTest -->
-        <test-method is-config="true" signature="afterMethod1Test()[pri:0, instance:com.vtiger.contacts.tiger.CreateContactTest@3964d79]" started-at="2022-05-31T09:44:53Z" name="afterMethod1Test" finished-at="2022-05-31T09:44:53Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- createProdcutName -->
+        <test-method is-config="true" signature="afterMethod1Test()[pri:0, instance:com.vtiger.product.test.CreateProductTest@3ab6678b]" started-at="2022-05-31T10:14:31Z" name="afterMethod1Test" finished-at="2022-05-31T10:14:36Z" duration-ms="4856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod1Test -->
-        <test-method is-config="true" signature="afterClass1Test()[pri:0, instance:com.vtiger.contacts.tiger.CreateContactTest@3964d79]" started-at="2022-05-31T09:44:53Z" name="afterClass1Test" finished-at="2022-05-31T09:44:53Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterClass1Test()[pri:0, instance:com.vtiger.product.test.CreateProductTest@3ab6678b]" started-at="2022-05-31T10:14:36Z" name="afterClass1Test" finished-at="2022-05-31T10:14:37Z" duration-ms="1362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass1Test -->
-        <test-method is-config="true" signature="aftersuite1Test()[pri:0, instance:com.vtiger.contacts.tiger.CreateContactTest@3964d79]" started-at="2022-05-31T09:44:54Z" name="aftersuite1Test" finished-at="2022-05-31T09:44:54Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="aftersuite1Test()[pri:0, instance:com.vtiger.product.test.CreateProductTest@3ab6678b]" started-at="2022-05-31T10:14:37Z" name="aftersuite1Test" finished-at="2022-05-31T10:14:37Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftersuite1Test -->
-      </class> <!-- com.vtiger.contacts.tiger.CreateContactTest -->
+      </class> <!-- com.vtiger.product.test.CreateProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
